@@ -35,7 +35,8 @@
   margin-right: 26%;
   margin-left: 26%;
   padding-bottom: 33.5%;
-
+  padding-left: 5%;
+  padding-right: 5%;
   background-image: url("/pic/LogoBg01.jpg");,
   display: inline;
   background-repeat: no-repeat;
@@ -45,8 +46,4 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.3;
-}
-
-.clintsBackground {
-  background-color: #2e6db4;
 }
