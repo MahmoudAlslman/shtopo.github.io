@@ -29,3 +29,24 @@
   from { transform: rotate(0deg);}
   from { transform: rotate(360deg);}
 }
+
+.heroBackgraound{
+  margin-top: -33.5%;
+  margin-right: 26%;
+  margin-left: 26%;
+  padding-bottom: 33.5%;
+
+  background-image: url("/pic/LogoBg01.jpg");,
+  display: inline;
+  background-repeat: no-repeat;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.clintsBackground {
+  background-color: #2e6db4;
+}

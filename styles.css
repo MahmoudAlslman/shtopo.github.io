@@ -53,3 +53,31 @@ li {
     text-shadow: 1px 1px 3px hsl(240deg 7% 97%);
     font-weight: bold;
 }
+ .HeroImg12 {
+  margin-left: 75%;
+  margin-top: 5%;
+ }
+
+ .HeroImg01 {
+  display: flex;
+  margin-top: -33.5%;
+
+ }
+
+ .heroText{
+  margin-top: -31%;
+  margin-right: 28%;
+  margin-left: 28%;
+  padding-bottom: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: 'Gloock', serif;
+  font-size: 1.5rem;
+
+
+ }
+
+ .clints{
+  margin-top: -12.5%;
+
+ }
