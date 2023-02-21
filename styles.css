@@ -93,8 +93,10 @@ a {
 
 .nossosClintes {
 
-  padding-top: 350px;
-  MARGIN-TOP: -21%;
+  margin-top: 84px;
+  padding-top: 0px;
+
+
 }
 
 .nossosClintes--h6 {
@@ -109,10 +111,17 @@ a {
 }
 
 
-#habitissimo-habitissimo_profile {
 
+#habitissimo-habitissimo_comments {
 
-  margin-top: -25%;
-  margin-right: 29%;
-  margin-left: 32%;
+ margin-top: -39%;
+ margin-left: 74%;
+}
+
+.img-TT {
+  margin: -36% 29% 52% 0%;
+}
+
+.img-tecpar {
+  margin: -70% 22% 53% 26%;
 }

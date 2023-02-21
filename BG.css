@@ -49,6 +49,9 @@
 .nossosClintes{
 
   background-color: #2e6db4 ;
-  opacity: 0.3;
+  opacity: 0.8;
+
+  height: 100px;
+  width: 100%;
 
 }
