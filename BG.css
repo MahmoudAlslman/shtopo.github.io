@@ -37,13 +37,18 @@
   padding-bottom: 33.5%;
   padding-left: 5%;
   padding-right: 5%;
-  background-image: url("/pic/LogoBg01.jpg");,
-  display: inline;
-  background-repeat: no-repeat;
+  background-image: url("/pic/LogoBg01.jpg");
 
-
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.3;
+}
+
+.nossosClintes{
+
+  background-color: #2e6db4 ;
+  opacity: 0.3;
+
 }
