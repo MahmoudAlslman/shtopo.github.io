@@ -1,5 +1,5 @@
 h1 {
-  margin-top: -36px;
+  margin-top: -2.5rem;
   font-size: .7rem;
   margin-left: 3.5rem;
   letter-spacing: .1em;
@@ -8,20 +8,40 @@ h1 {
 
 }
 
+body {
+  margin: 0%;
+}
+
+p{
+  opacity: 2;
+
+
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 4rem;
+  z-index: 20;
+}
+
 .pargraf01 {
-  font-size: .5rem;
-  margin-top: 2px;
+  font-size: .7rem;
+  margin: 2px;
+  opacity: 0.6;
 }
 
 .navIcon {
-  margin-top: -1.5%;
-  margin-left: 10%;
+  margin-top: -2.5rem;
+  margin-left: 20rem;
   display: flex;
   list-style-type: none;
 }
 
 li {
-
+  list-style: none;
   margin: 5px;
   padding: 5px
 }
@@ -38,45 +58,59 @@ li {
   margin: 1px 37px;
   cursor: pointer;
   border-radius: 12px;
+  z-index: 20;
 }
 
 .ImagLogo02 {
-  z-index: 3;
-  margin-left: 45%;
+  z-index: 20;
+  margin-left: 77rem;
 }
 
 .contatoWhatsApp {
-  margin-top: -1.5%;
-  margin-left: 40.5%;
+  margin-top: -2.5rem;
+  margin-left: 70rem;
   font-size: .7rem;
   letter-spacing: .1em;
   text-shadow: 1px 1px 3px hsl(240deg 7% 97%);
   font-weight: bold;
 }
 
-.HeroImg12 {
-  margin-left: 75%;
-  margin-top: 5%;
+header {
+  height: 4rem;
+
 }
 
-.HeroImg01 {
+#hero {
+
+
+  display: grid;
+  grid-template-columns: 25vw 50vw 25vw;
+
+  height: 33rem;
+}
+
+.grid-item {
+
+  text-align: center;
+}
+
+
+#HeroImg01 {
   display: flex;
-  margin-top: -33.5%;
-
+  margin-top: -27.5rem;
 }
+
+
 
 .heroText {
-  margin-top: -31%;
-  margin-right: 28%;
-  margin-left: 28%;
-  padding-bottom: 30%;
-  padding-left: 3%;
-  padding-right: 3%;
-  font-family: 'Gloock', serif;
-  font-size: 1.5rem;
 
+  font-family:  serif;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+  margin: 3rem;
 
 }
+
 
 .clints {
   margin-top: -12.5%;
@@ -91,37 +125,45 @@ a {
   color: white;
 }
 
+
+#nossosClintes {
+
+  position: absolute;
+  top: 45rem;
+  width: 100vw;
+}
+
 .nossosClintes {
 
-  margin-top: 84px;
-  padding-top: 0px;
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
 
+  height: 33rem;
 
 }
 
 .nossosClintes--h6 {
-  margin-top: -25%;
-  margin-right: 29%;
-  margin-left: 32%;
-  padding-bottom: 30%;
-  padding-left: 3%;
-  padding-right: 3%;
+
+  position: absolute;
+  top: -16rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
   font-family: serif;
   font-size: 3.5rem;
+  background-color: rgba(4, 0, 255, 0.877);
+  background-image: linear-gradient(177deg, rgb(5, 36, 122), rgb(0, 204, 255));
+  text-align: center;
+  width: 100vw;
 }
 
 
 
-#habitissimo-habitissimo_comments {
+footer {
+  position: relative;
+  top: 40rem;
+  background-image: linear-gradient(0deg, rgb(23, 56, 163), rgba(80, 149, 240, 0.836));
+  width: 100vw;
+  height: 10rem;
 
- margin-top: -39%;
- margin-left: 74%;
-}
-
-.img-TT {
-  margin: -36% 29% 52% 0%;
-}
-
-.img-tecpar {
-  margin: -70% 22% 53% 26%;
 }
