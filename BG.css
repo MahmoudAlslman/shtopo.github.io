@@ -33,7 +33,7 @@
 }
 
 .heroBackgraound{
-    background-image: url(/pic/LogoBg01.jpg);
+    background-image: url(./pic/LogoBg01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.6;
