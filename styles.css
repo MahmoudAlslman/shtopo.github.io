@@ -177,3 +177,14 @@ footer {
   height: 10rem;
 
 }
+
+.footr-contact{
+  position: fixed;
+  top: 25rem;
+  right: 1rem;
+  display: grid;
+}
+
+.fa {
+  font-size: 3rem;
+}
