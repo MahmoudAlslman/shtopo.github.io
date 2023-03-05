@@ -170,11 +170,12 @@ a {
 
 
 footer {
-  position: relative;
-  top: 40rem;
+  position: absolute;
+  top: 95rem;
   background-image: linear-gradient(0deg, rgb(23, 56, 163), rgba(80, 149, 240, 0.836));
+  border-radius: 0rem 17rem / 10rem;
   width: 100vw;
-  height: 10rem;
+  height: 20rem;
 
 }
 
@@ -183,8 +184,38 @@ footer {
   top: 25rem;
   right: 1rem;
   display: grid;
+  background:rgb(154, 219, 157);
+  border-radius: 4rem;
+  padding: .4rem;
+  
 }
 
 .fa {
+  font-size: 3rem;
+  margin: 1.7rem;
+}
+
+.map-loccation{
+  position: relative;
+  margin-top: -11.8rem;
+  margin-left: 14.7rem;
+
+}
+
+#footer-nossos--cansis{
+  position: relative;
+  top: 4rem;
+  right: -48rem;
+}
+
+.nossosContatos-footer{
+  position: relative;
+margin-top: 1rem;
+
+}
+
+section h3 {
+  margin-left: 4rem;
+  margin-top: -2rem;
   font-size: 3rem;
 }
