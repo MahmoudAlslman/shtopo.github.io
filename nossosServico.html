@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="BG.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./Slideshow.css">
+
+    <title>Shawkat Topografia</title>
+    <link rel="shortcut icon" href="./pic/logo440_440.png">
+    <title></title>
+</head>
+
+<body>
+    <!-- CABESALHO -->
+    <header>
+        <nav class="navBar">
+            <div class="wrapper">
+                <img alt="Logo de SH topo" src="./pic/logo440_440-removebg-preview (1).png" width="50" height="50">
+
+                <img class="ImagLogo02" alt="Logo de SH topo 02" src="./pic/estacao_440_440-removebg-preview.png"
+                    width="50" height="50">
+
+
+                <h1> Shawkat <br>
+                    <p class="pargraf01">Topografia</p>
+                </h1>
+                <ul class="navIcon">
+                    <li class="button">
+                        <a href="./index.htmL" target="_blank"> Empresa
+
+                        </a>
+
+                    </li>
+
+                    <li class="button">
+                        <a href="./nossosServico.html" target="_blank"> Nosso Serviço
+
+                        </a>
+
+                    </li>
+
+                    <li class="button">
+                        <a href="#Orcamento" target="_blank"> Orçamento
+
+                        </a>
+
+                </ul>
+                <a href="https://wa.me/message/BYBPH54ONH7EB1">
+                    <p class="contatoWhatsApp">Contato (11) 971986-303</p>
+                </a>
+                <div class="wave"></div>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+
+
+
+
+
+        <div class="w3-container">
+            <h2 class="Titel--servic--01">Levantamento Topogafico</h2>
+            <p>Nossa emorasa ofressse 3 tipos de Levantamentos </p>
+        </div>
+        <div class="slider01-levantamentoPlanimetrico">
+
+
+            <div class="w3-content w3-display-container" >
+                <img class="mySlides" src="./pic/Levantamento/Lotamento001.jpg" style="width:300px" height="200px">
+                <img class="mySlides" src="./pic/Levantamento/Lotamento002.jpg" style="width:300px" height="200px">
+                <img class="mySlides" src="./pic/Levantamento/Loteamento003.jpg" style="width:300px" height="200px">
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                   >
+                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+                <p>Levantamento Topografico planimetreco </p>
+            </div>
+</div>
+<div class="slider02-levantamentoPlanimetrico">
+
+
+    <div class="w3-content w3-display-container" >
+        <img class="mySlides" src="./pic/Levantamento/Lotamento001.jpg" style="width:300px" height="200px">
+        <img class="mySlides" src="./pic/Levantamento/Lotamento002.jpg" style="width:300px" height="200px">
+        <img class="mySlides" src="./pic/Levantamento/Loteamento003.jpg" style="width:300px" height="200px">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+           >
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+        <p>Levantamento Topografico planimetreco </p>
+    </div>
+</div>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function currentDiv(n) {
+                    showDivs(slideIndex = n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" w3-white", "");
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " w3-white";
+                }
+            </script>
+    
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <section id="Footer">
+            <div class="Footer">
+                <div class="footr-contact">
+                    <a href="#" class="fa fa-whatsapp"></a>
+
+                    <!-- 
+                        
+
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-envelope"></a>
+                     -->
+                </div>
+
+
+            </div>
+
+            <div class="nossosContatos-footer">
+
+
+                <section id="footer-nossos--cansis">
+
+                    <h3> Nossos canais </h3>
+                    <a href="https://instagram.com/shawkattopografia?igshid=ZDdkNTZiNTM=" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/ShawkatTopografia" class="fa fa-facebook"></a>
+                    <a href="mailto:mahmoujadara1@gmail.com" class="fa fa-envelope"></a>
+                    <a href="https://www.youtube.com/channel/UCGk2YtlmLTH81ppcmpNLoVA" class="fa fa-youtube"></a>
+                    <a href="https://www.linkedin.com/company/shawkat-topografia/" class="fa fa-linkedin"></a>
+
+
+
+                </section>
+            </div>
+
+
+
+
+            <iframe class="map-loccation"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14668.421674502002!2d-46.892167!3d-23.2028285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d60cfd929f08339!2sShawkat%20Topografia!5e0!3m2!1sar!2sbr!4v1678018329095!5m2!1sar!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+    </footer>
+
+</body>
+
+</html>
