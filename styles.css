@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto+Slab:wght@100;400;700&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 
 :root {
@@ -193,7 +194,7 @@ footer {
 }
 
 .fa {
-  font-size: 3rem;
+
   margin: 1.7rem;
 }
 
@@ -202,6 +203,23 @@ footer {
   margin-top: -11.8rem;
   margin-left: 14.7rem;
 
+}
+
+.map-loccation1{
+  position: relative;
+  margin-top: -9.8rem;
+  margin-left: 14.7rem;
+  width: 400px;
+  height: 280px
+  ;
+
+}
+.mapa--location01{
+  position: relative;
+  top: -9rem;
+    left: 19rem;
+    width: 300px;
+    height: 250px;
 }
 
 #footer-nossos--cansis{
